@@ -1,0 +1,46 @@
+/* Existing styles here */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+#game {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  border: 2px solid #000;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+img {
+  width: 100px; /* or a specific width like 300px */
+  height: auto; /* maintains aspect ratio */
+  object-fit: contain; /* or 'contain' to ensure the whole image is visible */
+}
+
+#obstacle img {
+  width: 60px;
+}
+
+#dino {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+#obstacle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 40px;
+}
